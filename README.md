@@ -1,2 +1,2 @@
-This journal contains the following number of entries:
-19
+# This journal contains the following number of lineas:
+22

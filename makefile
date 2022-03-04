@@ -1,4 +1,6 @@
-README.md: guessinggame.sh
-	echo "# This journal contains the following number of lineas:" > README.md
-	wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
+dateCreation=$(date)
 
+README.md: guessinggame.sh
+	echo "# Title of the proyect: Guessing Game" > README.md
+	numberLines=$(wc -l guessinggame.sh | egrep -o "[0-9]+")
+	echo "- **Number of lines** of code: $numberLines"  >> README.md

@@ -1,2 +1,2 @@
-# This journal contains the following number of lineas:
-22
+# Title of the proyect: Guessing Game
+- **Number of lines** of code: umberLines
